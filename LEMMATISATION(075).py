@@ -1,0 +1,11 @@
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+print(lemmatizer.lemmatize("dogs"))
+print(lemmatizer.lemmatize("study"))
+print(lemmatizer.lemmatize("mice"))
+print(lemmatizer.lemmatize("playing", pos="v"))
+print(lemmatizer.lemmatize("better", pos="a"))
+print(lemmatizer.lemmatize("running", pos="v"))
+print(lemmatizer.lemmatize("sunday", pos="n"))
+print(lemmatizer.lemmatize("rama",pos="n"))
+print(lemmatizer.lemmatize("studying",pos="v"))
